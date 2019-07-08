@@ -37,7 +37,7 @@ from io import open
 from setuptools import find_packages, setup
 
 setup(
-    name="pytorch_pretrained_bert",
+    name="gpt2_question_answering",
     version="0.6.2",
     author="Thomas Wolf, Victor Sanh, Tim Rault, Google AI Language Team Authors, Open AI team Authors",
     author_email="thomas@huggingface.co",
@@ -60,7 +60,7 @@ setup(
         "pytorch_pretrained_bert=pytorch_pretrained_bert.__main__:main",
       ]
     },
-    # python_requires='>=3.5.0',
+    # python_requires='>=3.5.0',s
     tests_require=['pytest'],
     classifiers=[
           'Intended Audience :: Science/Research',
